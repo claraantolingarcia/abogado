@@ -1,0 +1,36 @@
+.top-menu ul {
+    list-style: none;
+    float:right;
+}
+
+.top-menu ul li {
+    display: inline-block;
+    background: transparent;
+    border-bottom: 3px solid transparent;
+}
+
+.top-menu ul li:hover a {
+    background: transparent;
+}
+
+.top-menu ul li a:hover {
+    border-bottom: 1.1px;
+}
+
+.top-menu ul li a {
+    font-size: 20px;
+    color: #2a2929;
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.selected {
+    border-bottom: 1.1px;
+}
