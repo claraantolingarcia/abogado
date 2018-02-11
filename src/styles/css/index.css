@@ -1,7 +1,16 @@
 /*******************************************************************************************************************
-                                        ESTILOS GENERALES
+                                        ESTILOS PAGINA PRINCIPAL
 *******************************************************************************************************************/
 
+@font-face {
+    font-family: 'Shamery';
+    src: url('../ShameryFont/shamery.ttf');
+}
+
+@font-face {
+    font-family: 'Saint';
+    src: url('../SaintAndrewQueen/Saint.ttf');
+}
 
 body {
     overflow: hidden;
@@ -12,7 +21,6 @@ body {
     width: 100%;
     height: 8%;
 }
-
 
 .main-content {
     position: absolute;
@@ -39,7 +47,7 @@ body {
 }
 
 .default-text {
-    font-family: 'Brandon Grotesque', light;
+    font-family: 'Saint', light;
     font-size: 30px;
     align-content: center;
     color:white;
