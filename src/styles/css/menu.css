@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Brandon_light';
+    src: url('../Brandon/Brandon_light.otf');
+}
+
 .top-menu ul {
     list-style: none;
     float:right;
@@ -20,17 +25,21 @@
 .top-menu ul li a {
     font-size: 20px;
     color: #2a2929;
-}
-
-.centered-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    text-align: center;
-    text-align: center;
-    transform: translate(-50%, -50%);
+    font-family: 'Brandon_light';
 }
 
 .selected {
     border-bottom: 1.1px;
+}
+
+.fast-icon {
+    height: 100%;
+    float: left;
+    padding: 3px;
+}
+
+.text-icon {
+    float: left;
+    font-size: 26px;
+    font-family: 'Brandon_light';
 }

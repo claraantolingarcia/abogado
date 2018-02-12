@@ -8,11 +8,46 @@
 }
 
 @font-face {
-    font-family: 'Saint';
-    src: url('../SaintAndrewQueen/Saint.ttf');
+    font-family: 'Jellyka';
+    src: url('../JellykaFont/jellyka.ttf');
 }
 
-body {
+@font-face {
+    font-family: 'Brandon_bld';
+    src: url('../Brandon/Brandon_bld.otf');
+}
+
+@font-face {
+    font-family: 'Brandon_blk';
+    src: url('../Brandon/Brandon_blk.otf');
+}
+
+@font-face {
+    font-family: 'Brandon_light';
+    src: url('../Brandon/Brandon_light.otf');
+}
+
+@font-face {
+    font-family: 'Brandon_med';
+    src: url('../Brandon/Brandon_med.otf');
+}
+
+@font-face {
+    font-family: 'Brandon_reg';
+    src: url('../Brandon/Brandon_reg.otf');
+}
+
+@font-face {
+    font-family: 'Brandon_grotesque_bold';
+    src: url('../Brandon/BrandonGrotesque-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Brandon_grotesque_medium';
+    src: url('../Brandon/BrandonGrotesque-Medium.otf');
+}
+
+.body-index {
     overflow: hidden;
     height: 100%;
 }
@@ -46,8 +81,17 @@ body {
     background-attachment: fixed;
 }
 
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
 .default-text {
-    font-family: 'Saint', light;
+    font-family: 'Brandon_light';
     font-size: 30px;
     align-content: center;
     color:white;
@@ -72,10 +116,6 @@ body {
 
 .bg-main{
     background-image: url('../../assets/images/index-background.jpg');
-}
-
-.description-home {
-    font-size: 30px;
 }
 
 
