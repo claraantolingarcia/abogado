@@ -3,33 +3,62 @@
     src: url('../Brandon/Brandon_light.otf');
 }
 
+@font-face {
+    font-family: 'Jellyka';
+    src: url('../JellykaFont/jellyka.ttf');
+}
+
+/*******************************************************************************************************************
+                                        TEXTO
+*******************************************************************************************************************/
+
 .paragraph {
     font-family: 'Brandon_light';
-    font-size: 30px;
+    font-size: 20px;
     align-content: center;
     color: #2a2929;
     justify-content: center;
     align-content: center;
-    padding: 15px 60px 0px 60px;
+    padding-top: 1%;
 }
 
 .team-text {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    left: 0;
+    right: 0;
+    padding-left: 10%;
+    padding-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 7%;
 }
 
-.row {
-    width: 100%;
-    margin: auto;
+.signature-text {
+    position: absolute;
+    left: 65%;
+    font-family: 'Jellyka';
+    font-size: 50px;
+    transform: rotate(-30deg);
+    padding-top: 1%;
 }
+
+/*******************************************************************************************************************
+                                        CUADRICULA
+*******************************************************************************************************************/
+
 
 .grid {
-    margin-left: 15%;
+    margin: 5%;
+    margin-top: 0;
+    padding-left: 4%;
 }
 
 .square {
-    width: 30%;
-    height: 250px;
+    font-family: 'Brandon_light';
+    font-size: 17px;
+    padding: 2%;
+    left: 0;
+    top: 0;
+    width: 27%;
+    height: 300px;
     float: left;
 }
 
@@ -42,3 +71,10 @@
     background: #ecebeb;
     color: #2a2929;
 }
+
+.align-text {
+    padding-top: 4%;
+    text-align: center;
+    text-align: center;
+}
+
